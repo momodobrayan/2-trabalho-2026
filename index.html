@@ -1,359 +1,359 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Bet.Info</title>
+
     <style>
+
         /* --- Configurações Gerais --- */
+
         * {
+
             margin: 0;
+
             padding: 0;
+
             box-sizing: border-box;
+
             font-family: Arial, sans-serif;
+
         }
+
+
 
         body {
+
             background-color: #ffffff;
+
             color: #000000;
+
             padding: 20px;
+
             display: flex;
+
             flex-direction: column;
+
             align-items: center;
+
         }
+
+
 
         /* --- 1. Topo / Barra de Navegação --- */
+
         .navbar {
+
             display: flex;
+
             align-items: center;
+
             justify-content: space-between;
+
             width: 100%;
+
             max-width: 800px;
+
             margin-bottom: 50px;
+
             gap: 15px;
+
         }
+
+
 
         .menu-icon {
+
             display: flex;
+
             flex-direction: column;
+
             justify-content: space-between;
+
             width: 30px;
+
             height: 20px;
+
             cursor: pointer;
+
         }
+
+
 
         .menu-icon span {
+
             display: block;
+
             height: 3px;
+
             width: 100%;
+
             background-color: #000;
+
             border-radius: 2px;
+
         }
+
+
 
         .search-wrapper {
+
             position: relative;
+
             flex-grow: 1;
+
             max-width: 600px;
+
         }
+
+
 
         .search-icon-btn {
+
             position: absolute;
+
             left: -45px;
+
             top: 50%;
+
             transform: translateY(-50%);
+
             background: #000;
+
             border: none;
+
             border-radius: 8px;
+
             width: 35px;
+
             height: 35px;
+
             display: flex;
+
             align-items: center;
+
             justify-content: center;
+
             cursor: pointer;
+
         }
+
+
 
         .search-icon-btn img {
+
             width: 18px;
+
             height: 18px;
+
             filter: invert(1); /* Deixa o ícone de lupa branco */
+
         }
+
+
 
         .search-input {
+
             width: 100%;
+
             padding: 8px 20px;
+
             border: 2px solid #000;
+
             border-radius: 20px;
+
             font-size: 18px;
+
             font-style: italic;
+
             font-family: 'Courier New', Courier, monospace; /* Fonte com estilo de máquina */
+
             font-weight: bold;
+
             color: #666;
+
         }
+
+
 
         .profile-icon {
+
             width: 40px;
+
             height: 40px;
+
             cursor: pointer;
+
         }
+
+
 
         /* --- 2. Seção de Recursos (Grid de 3 Colunas) --- */
+
         .features-container {
+
             display: grid;
+
             grid-template-columns: repeat(3, 1fr);
+
             gap: 20px;
+
             width: 100%;
+
             max-width: 800px;
+
             text-align: center;
+
             margin-bottom: 50px;
+
         }
+
+
 
         .feature-item {
+
             display: flex;
+
             flex-direction: column;
+
             align-items: center;
+
         }
+
+
 
         .feature-image {
+
             width: 90px;
+
             height: 90px;
+
             object-fit: contain;
+
             margin-bottom: 15px;
+
         }
+
+
 
         .feature-text {
+
             font-size: 18px;
+
             font-style: italic;
+
             line-height: 1.2;
+
         }
+
+
 
         /* --- 3. Texto de Notícia Inferior --- */
+
         .news-text {
+
             width: 100%;
+
             max-width: 800px;
+
             font-size: 16px;
+
             font-style: italic;
+
             line-height: 1.4;
+
             text-align: left;
+
             padding: 0 10px;
+
         }
+
     </style>
+
 </head>
+
 <body>
 
-    <header class="navbar">
-        <div class="menu-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        
-        <div class="search-wrapper">
-            <button class="search-icon-btn">
-                <img src="imagens/lupa.png" alt="Buscar">
-            </button>
-            <input type="text" class="search-input" value="Bet.Info" readonly>
-        </div>
 
-        <img src="imagens/usuario.png" alt="Perfil" class="profile-icon">
-    </header>
-
-    <main class="features-container">
-        <div class="feature-item">
-            <img src="b33f5eef8b8102d4da1fb9b2ba2781e5.jpg" alt="Cadeado" class="feature-image">
-            <p class="feature-text">regras rígidas<br>de segurança</p>
-        </div>
-        <div class="feature-item">
-            <img src="f2f53ae6a0f77dde7f65eceaaa63c8a4.jpg" alt="Dinheiro" class="feature-image">
-            <p class="feature-text">pagamento<br>de impostos</p>
-        </div>
-        <div class="feature-item">
-            <img src="<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bet.Info</title>
-    <style>
-        /* --- Configurações Gerais --- */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background-color: #ffffff;
-            color: #000000;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        /* --- 1. Topo / Barra de Navegação --- */
-        .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            max-width: 800px;
-            margin-bottom: 50px;
-            gap: 15px;
-        }
-
-        .menu-icon {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 30px;
-            height: 20px;
-            cursor: pointer;
-        }
-
-        .menu-icon span {
-            display: block;
-            height: 3px;
-            width: 100%;
-            background-color: #000;
-            border-radius: 2px;
-        }
-
-        .search-wrapper {
-            position: relative;
-            flex-grow: 1;
-            max-width: 600px;
-        }
-
-        .search-icon-btn {
-            position: absolute;
-            left: -45px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: #000;
-            border: none;
-            border-radius: 8px;
-            width: 35px;
-            height: 35px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-        }
-
-        .search-icon-btn img {
-            width: 18px;
-            height: 18px;
-            filter: invert(1); /* Deixa o ícone de lupa branco */
-        }
-
-        .search-input {
-            width: 100%;
-            padding: 8px 20px;
-            border: 2px solid #000;
-            border-radius: 20px;
-            font-size: 18px;
-            font-style: italic;
-            font-family: 'Courier New', Courier, monospace; /* Fonte com estilo de máquina */
-            font-weight: bold;
-            color: #666;
-        }
-
-        .profile-icon {
-            width: 40px;
-            height: 40px;
-            cursor: pointer;
-        }
-
-        /* --- 2. Seção de Recursos (Grid de 3 Colunas) --- */
-        .features-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            width: 100%;
-            max-width: 800px;
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .feature-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .feature-image {
-            width: 90px;
-            height: 90px;
-            object-fit: contain;
-            margin-bottom: 15px;
-        }
-
-        .feature-text {
-            font-size: 18px;
-            font-style: italic;
-            line-height: 1.2;
-        }
-
-        /* --- 3. Texto de Notícia Inferior --- */
-        .news-text {
-            width: 100%;
-            max-width: 800px;
-            font-size: 16px;
-            font-style: italic;
-            line-height: 1.4;
-            text-align: left;
-            padding: 0 10px;
-        }
-    </style>
-</head>
-<body>
 
     <header class="navbar">
+
         <div class="menu-icon">
+
             <span></span>
+
             <span></span>
+
             <span></span>
+
         </div>
+
         
+
         <div class="search-wrapper">
+
             <button class="search-icon-btn">
+
                 <img src="imagens/lupa.png" alt="Buscar">
+
             </button>
+
             <input type="text" class="search-input" value="Bet.Info" readonly>
+
         </div>
+
+
 
         <img src="imagens/usuario.png" alt="Perfil" class="profile-icon">
+
     </header>
 
+
+
     <main class="features-container">
+
         <div class="feature-item">
-            <img src="f2f53ae6a0f77dde7f65eceaaa63c8a4.jpg" alt="Cadeado" class="feature-image">
+
+            <img src="imagens/cadeado.png" alt="Cadeado" class="feature-image">
+
             <p class="feature-text">regras rígidas<br>de segurança</p>
+
         </div>
+
         <div class="feature-item">
-            <img src="f2f53ae6a0f77dde7f65eceaaa63c8a4.jpg" alt="Dinheiro" class="feature-image">
+
+            <img src="imagens/dinheiro.png" alt="Dinheiro" class="feature-image">
+
             <p class="feature-text">pagamento<br>de impostos</p>
+
         </div>
+
         <div class="feature-item">
-            <img src="022eb58c1910191417d22a667421027c.jpg" alt="Celular" class="feature-image">
+
+            <img src="imagens/celular.png" alt="Celular" class="feature-image">
+
             <p class="feature-text">transparência<br>nos saques</p>
+
         </div>
+
     </main>
 
-    <article class="news-text">
-        <p>o governo finalizou as diretrizes para o setor no país: A partir de agora, as casas de apostas operando em território nacional devem seguir regras rígidas de segurança além de pagar impostos sobre o faturamento, para os usuários, as mudanças prometem maior transparência nos saques e proteção aos dados.</p>
-    </article>
 
-</body>
-</html>" alt="Celular" class="feature-image">
-            <p class="feature-text">transparência<br>nos saques</p>
-        </div>
-    </main>
 
     <article class="news-text">
+
         <p>o governo finalizou as diretrizes para o setor no país: A partir de agora, as casas de apostas operando em território nacional devem seguir regras rígidas de segurança além de pagar impostos sobre o faturamento, para os usuários, as mudanças prometem maior transparência nos saques e proteção aos dados.</p>
+
     </article>
 
+
+
 </body>
+
 </html>

@@ -129,3 +129,15 @@ body {
     text-align: left;
     padding: 0 10px;
 }
+body {
+            background-image: url('6711473-dinheiro-espalhado-em-um-fundo-verde-padrao-sem-emenda-vetor.jpg'); /* COLOQUE O NOME OU LINK DA SUA FOTO AQUI */
+            background-size: cover;       /* Faz a foto cobrir a tela inteira sem distorcer */
+            background-position: center;   /* Centraliza a foto na tela */
+            background-repeat: no-repeat;  /* Impede que a foto fique se repetindo em mosaico */
+            background-attachment: fixed;  /* Deixa o fundo fixo enquanto você rola a página */
+            color: #000000;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }

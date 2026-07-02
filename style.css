@@ -143,3 +143,27 @@ body {
         }
 
        
+
+        body {
+    /* Define a imagem de fundo (substitua pelo caminho da sua imagem) */
+    background-image: url('sua-imagem.jpg');
+
+    /* Garante que a imagem cubra toda a tela sem distorcer */
+    background-size: cover;
+
+    /* Centraliza a imagem na tela */
+    background-position: center;
+
+    /* Impede que a imagem fique se repetindo como um mosaico */
+    background-repeat: no-repeat;
+
+    /* Faz com que o fundo fique fixo enquanto você rola a página (opcional) */
+    background-attachment: fixed;
+
+    /* Uma cor de fundo reserva caso a imagem demore para carregar */
+    background-color: #4A90E2; 
+    
+    /* Garante que o corpo ocupe pelo menos a altura inteira da tela */
+    min-height: 100vh;
+    margin: 0;
+}

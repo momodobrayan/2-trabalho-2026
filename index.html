@@ -375,32 +375,32 @@
 </html>
 
 
+<style>
+  .links-noticia-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Links Clicáveis</title>
-    <style>
-        /* Estilo simples para organizar os links em lista */
-        .menu-links {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
+  .link-noticia {
+    color: #0000EE; /* Cor clássica de link, mude se preferir */
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+  }
 
-    <div class="menu-links">
-        <a href="https://www.google.com" target="_blank">Pesquisar</a>
-        <a href="https://www.wikipedia.org" target="_blank">Notícias</a>
-        <a href="Jogo Responsável.html">Sobre</a>
-        <a href="Fiscalização.html">Contato</a>
-        <a href="Regulamentação.html">Contato</a>
-    </div>
+  .link-noticia:hover {
+    color: #551A8B; /* Cor ao passar o mouse */
+  }
+</style>
 
-</body>
-</html>
+<div class="links-noticia-container">
+  <a href="#diretrizes" class="link-noticia">Diretrizes</a>
+  <a href="#regulamentacao" class="link-noticia">Regulamentação</a>
+  <a href="#seguranca" class="link-noticia">Segurança</a>
+  <a href="#impostos" class="link-noticia">Impostos</a>
+  <a href="#transparencia" class="link-noticia">Transparência</a>
+</div>

@@ -142,42 +142,4 @@ body {
             align-items: center;
         }
 
-        /* Remove margens padrão do navegador */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-/* Estilização da barra de navegação */
-.menu-navegacao {
-    background-color: #333; /* Cor de fundo escura */
-    padding: 10px 0;
-}
-
-/* Remove as bolinhas da lista e alinha os itens */
-.menu-navegacao ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Centraliza o menu na tela */
-}
-
-/* Espaçamento entre os links */
-.menu-navegacao li {
-    margin: 0 15px;
-}
-
-/* Estilo padrão dos links */
-.menu-navegacao a {
-    color: white;
-    text-decoration: none; /* Remove o sublinhado */
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s ease; /* Transição suave de cor */
-}
-
-/* Efeito quando passa o mouse por cima do link */
-.menu-navegacao a:hover {
-    color: #00bcd4; /* Muda para um tom de azul/ciano */
-}
+       
